@@ -46,7 +46,7 @@ public class SkeletalHand : HandModel {
 
     if (palm != null) {
       palm.position = GetPalmCenter();
-      palm.rotation = GetPalmRotation();
+//      palm.rotation = GetPalmRotation();
     }
 
     if (wristJoint != null) {
